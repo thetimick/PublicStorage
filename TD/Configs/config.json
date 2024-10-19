@@ -1,0 +1,22 @@
+{
+  "SteamExecutable": "steam.exe",
+  "DeadlockExecutable": "game\\bin\\win64\\project8.exe",
+  "Localization": {
+    "EnglishFileName": "game\\citadel\\resource\\localization\\citadel_gc\\citadel_gc_english.txt",
+    "RussianFileName": "game\\citadel\\resource\\localization\\citadel_gc\\citadel_gc_russian.txt",
+    "BackupExtension": ".bak",
+    "MainKey": "Tokens",
+    "HeroPrefix": "hero_",
+    "ItemPrefix": "upgrade_",
+    "CheckingHeroes": {
+      "Key": "hero_mirage",
+      "EnglishValue": "Mirage",
+      "RussianValue": "Мираж"
+    },
+    "CheckingItems": {
+      "Key": "upgrade_damage_recycler",
+      "EnglishValue": "Leech",
+      "RussianValue": "Кровопийца"
+    }
+  }
+}
