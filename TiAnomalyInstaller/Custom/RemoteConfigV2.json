@@ -1,0 +1,72 @@
+{
+  "SchemaVersion": "3.0",
+  "Metadata": {
+    "Title": "Custom",
+    "Profile": "DUX модели без повреждения конечностей",
+    "PackageVersion": "1.0.0"
+  },
+  "Visual": {
+    "BackgroundImage": "https://github.com/thetimick/PublicStorage/raw/refs/heads/main/TiAnomalyInstaller/Custom/assets/back.jpg"
+  },
+  "Size": {
+    "DownloadBytes": 12345678,
+    "InstallBytes": 123456789
+  },
+  "Archives": [
+    {
+      "DisplayName": "Vanilla Game Files",
+      "ArchiveType": "Install",
+      "Url": "https://disk.yandex.ru/d/CYeRA4bE8TOh1Q",
+      "FileName": "Vanilla.7z",
+      "ExtractTo": "Vanilla",
+      "Version": "1.0.0",
+      "Checksum": {
+        "Algorithm": "MD5",
+        "Value": "72F24BDFA7D165848BA2D4C65491EFE4"
+      }
+    },
+
+    {
+      "DisplayName": "Organizer Files",
+      "ArchiveType": "Install",
+      "Url": "https://disk.yandex.ru/d/fLNtAD3QFqpV_A",
+      "FileName": "Organizer.7z",
+      "ExtractTo": "Organizer",
+      "Version": "1.0.0",
+      "Checksum": {
+        "Algorithm": "MD5",
+        "Value": "A28D8EEB659DD82F851746FC18FE8795"
+      }
+    },
+    {
+      "DisplayName": "Vanilla Patch #1",
+      "ArchiveType": "Patch",
+      "Url": "https://disk.yandex.ru/d/J-yDd9pCBUa4wA",
+      "FileName": "Patch-1.7z",
+      "ExtractTo": "Vanilla",
+      "Patch": {
+        "FromVersion": "1.0.0",
+        "ToVersion": "1.1.0"
+      },
+      "Checksum": {
+        "Algorithm": "MD5",
+        "Value": "CFB5721A6941A71C4E834BEAA499BB0B"
+      }
+    },
+    {
+      "DisplayName": "Organizer Patch #2",
+      "ArchiveType": "Patch",
+      "Url": "https://disk.yandex.ru/d/jcPwvpgs9EAUmA",
+      "FileName": "Patch-2.7z",
+      "ExtractTo": "Organizer",
+      "Patch": {
+        "FromVersion": "1.1.0",
+        "ToVersion": "1.1.0"
+      },
+      "Checksum": {
+        "Algorithm": "MD5",
+        "Value": "6126247256879BAE52DDB9637DE4F72A"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+schema_version: 1.0
+metadata:
+  title: Custom
+  profile: DUX модели без повреждения конечностей
+  latest_version: 1.1.0
+visual:
+  background_image: https://github.com/thetimick/PublicStorage/raw/refs/heads/main/TiAnomalyInstaller/Custom/assets/back.jpg
+size:
+  download_bytes: 12345678
+  install_bytes: 123456789
+archives:
+  install:
+    - url: https://disk.yandex.ru/d/CYeRA4bE8TOh1Q
+      file_name: Vanilla.7z
+      extract_to_folder: Vanilla
+      version: 1.0.0
+      checksum:
+        algorithm: MD5
+        value: 72F24BDFA7D165848BA2D4C65491EFE4
+    - url: https://disk.yandex.ru/d/fLNtAD3QFqpV_A
+      file_name: Organizer.7z
+      extract_to_folder: Organizer
+      version: 1.0.0
+      checksum:
+        algorithm: MD5
+        value: A28D8EEB659DD82F851746FC18FE8795
+  patch:
+    - url: https://disk.yandex.ru/d/J-yDd9pCBUa4wA
+      file_name: Patch-1.7z
+      extract_to_folder: Vanilla
+      patch:
+        from_version: 1.0.0
+        to_version: 1.1.0
+      checksum:
+        algorithm: MD5
+        value: CFB5721A6941A71C4E834BEAA499BB0B
+    - url: https://disk.yandex.ru/d/jcPwvpgs9EAUmA
+      file_name: Patch-2.7z
+      extract_to_folder: Organizer
+      patch:
+        from_version: 1.0.0
+        to_version: 1.1.0
+      checksum:
+        algorithm: MD5
+        value: 6126247256879BAE52DDB9637DE4F72A

@@ -1,0 +1,28 @@
+{
+	"Profile": "G.A.M.M.A",
+	"Hash": {
+		"ArchiveChecksumsUrl": "https://github.com/thetimick/PublicStorage/raw/refs/heads/main/TiAnomalyInstaller/G.A.M.M.A/ArchiveChecksums.7z",
+		"GameChecksumsUrl": "https://github.com/thetimick/PublicStorage/raw/refs/heads/main/TiAnomalyInstaller/G.A.M.M.A/GameChecksums.7z"
+	},
+	"Archives": [
+		{
+			"Url": "https://disk.yandex.ru/d/Di38sF7R0jB_Fg",
+			"FileName": "Vanilla.7z",
+			"Type": "Vanilla",
+			"Operations": []
+		},
+		{
+			"Url": "https://disk.yandex.ru/d/DQq7l0Iv8Qv7iA",
+			"FileName": "Organizer-1.7z",
+			"Type": "Organizer",
+			"Operations": []
+		},
+		{
+			"Url": "https://disk.yandex.ru/d/7PjQfzbqwxLwBA",
+			"FileName": "Organizer-2.7z",
+			"Type": "Organizer",
+			"Operations": []
+		}
+	],
+	"Version": "0.9.4"
+}

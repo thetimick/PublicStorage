@@ -1,0 +1,36 @@
+{
+	"Title": "Custom",
+	"Profile": "DUX \\xd0\\xbc\\xd0\\xbe\\xd0\\xb4\\xd0\\xb5\\xd0\\xbb\\xd0\\xb8 \\xd0\\xb1\\xd0\\xb5\\xd0\\xb7 \\xd0\\xbf\\xd0\\xbe\\xd0\\xb2\\xd1\\x80\\xd0\\xb5\\xd0\\xb6\\xd0\\xb4\\xd0\\xb5\\xd0\\xbd\\xd0\\xb8\\xd1\\x8f \\xd0\\xba\\xd0\\xbe\\xd0\\xbd\\xd0\\xb5\\xd1\\x87\\xd0\\xbd\\xd0\\xbe\\xd1\\x81\\xd1\\x82\\xd0\\xb5\\xd0\\xb9",
+	"Version": "1.0.0",
+	"CustomBackgroundImageUrl": "https://github.com/thetimick/PublicStorage/raw/refs/heads/main/TiAnomalyInstaller/Custom/assets/back.jpg",
+	"Size": {
+		"Size": 12345678,
+		"SizeForInstall": 123456789
+	},
+	"Archives": [
+		{
+			"Url": "https://disk.yandex.ru/d/CYeRA4bE8TOh1Q",
+			"FileName": "Vanilla.7z",
+			"Type": "Vanilla",
+			"Hash": "72F24BDFA7D165848BA2D4C65491EFE4"
+		},
+		{
+			"Url": "https://disk.yandex.ru/d/fLNtAD3QFqpV_A",
+			"FileName": "Organizer.7z",
+			"Type": "Organizer",
+			"Hash": "A28D8EEB659DD82F851746FC18FE8795"
+		},
+		{
+			"Url": "https://disk.yandex.ru/d/J-yDd9pCBUa4wA",
+			"FileName": "Patch-1.7z",
+			"Type": "Vanilla",
+			"Hash": "CFB5721A6941A71C4E834BEAA499BB0B"
+		},
+		{
+			"Url": "https://disk.yandex.ru/d/jcPwvpgs9EAUmA",
+			"FileName": "Patch-2.7z",
+			"Type": "Organizer",
+			"Hash": "6126247256879BAE52DDB9637DE4F72A"
+		},
+	]
+}
