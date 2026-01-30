@@ -4,7 +4,7 @@ metadata:
   profile: DUX модели без повреждения конечностей
   latest_version: 1.1.0
 visual:
-  background_image: https://github.com/thetimick/PublicStorage/raw/refs/heads/main/TiAnomalyInstaller/Custom/assets/back.jpg
+  background_image: null # https://github.com/thetimick/PublicStorage/raw/refs/heads/main/TiAnomalyInstaller/Custom/assets/back.jpg
 size:
   download_bytes: 12345678
   install_bytes: 123456789

@@ -1,0 +1,36 @@
+schema_version: 1.0
+metadata:
+  title: Air
+  profile: Default
+  latest_version: 0.2.1
+visual:
+  background_image: null
+size:
+  download_bytes: 13519516678
+  install_bytes: 26446854973
+archives:
+  install:
+    - url: https://disk.yandex.ru/d/_x3GQZEGDyQlyw
+      file_name: Vanilla.7z
+      extract_to_folder: Vanilla
+      version: 0.2.0
+      checksum:
+        algorithm: MD5
+        value: 1036B7629878AEAC8A102E9918A089EB
+    - url: https://disk.yandex.ru/d/cRN0DVbUrdJ8Bw
+      file_name: Organizer.7z
+      extract_to_folder: Organizer
+      version: 0.2.0
+      checksum:
+        algorithm: MD5
+        value: 5DC5CED3FB48A4D8F997514A30CE2855
+  patch:
+    - url: https://disk.yandex.ru/d/2oAUCWaqwz1hvQ
+      file_name: Patch-1.7z
+      extract_to_folder: Organizer
+      patch:
+        from_version: 0.2.0
+        to_version: 0.2.1
+      checksum:
+        algorithm: MD5
+        value: E21CB48DD32B9F46F13E1E2DE4C8CA1C
