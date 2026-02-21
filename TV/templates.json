@@ -1,0 +1,14 @@
+{
+  "version": "TiVPNv1",
+  "routingItems": [
+    {
+      "remarks": "Full",
+      "url": "https://github.com/thetimick/PublicStorage/raw/refs/heads/main/TV/full.json"
+    },
+    {
+      "remarks": "Blocked",
+      "domainStrategy": "IPOnDemand",
+      "url": "https://github.com/thetimick/PublicStorage/raw/refs/heads/main/TV/blocked.json"
+    }
+  ]
+}

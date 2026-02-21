@@ -1,0 +1,67 @@
+[
+  {
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ],
+    "enabled": true,
+    "remarks": "Торренты"
+  },
+  {
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "enabled": true,
+    "remarks": "Реклама"
+  },
+  {
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private"
+    ],
+    "enabled": true,
+    "remarks": "Приватные адреса"
+  },
+  {
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:private"
+    ],
+    "enabled": true,
+    "remarks": "Приватные сети"
+  },
+  {
+    "outboundTag": "proxy",
+    "ip": [
+      "1.0.0.1",
+      "1.1.1.1",
+      "8.8.8.8",
+      "8.8.4.4"
+    ],
+    "enabled": true,
+    "remarks": "DNS"
+  },
+  {
+    "outboundTag": "proxy",
+    "ip": [
+      "geoip:ru-blocked"
+    ],
+    "enabled": true,
+    "remarks": "Заблокированное (адреса)"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:ru-blocked"
+    ],
+    "enabled": true,
+    "remarks": "Заблокированное (сети)"
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "enabled": true,
+    "remarks": "Остальной трафик"
+  }
+]
